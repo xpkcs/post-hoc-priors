@@ -1,0 +1,74 @@
+.revision-list {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.revision-list h2 {
+  margin-bottom: 1.5rem;
+  color: #1a1a1a;
+}
+
+.revision-list.empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #666;
+}
+
+.revisions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.revision-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: white;
+}
+
+.revision-item:hover {
+  border-color: #999;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.revision-item.selected {
+  border-color: #0066cc;
+  background: #f0f7ff;
+}
+
+.revision-date {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.revision-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.revision-summary {
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.revision-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #e8e8e8;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  color: #555;
+}

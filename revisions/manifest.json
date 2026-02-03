@@ -1,0 +1,13 @@
+{
+  "revisions": [
+    {
+      "id": "rev-001",
+      "commitSha": "REPLACE_WITH_ACTUAL_COMMIT_SHA",
+      "date": "2024-02-03T10:00:00Z",
+      "title": "Initial document creation",
+      "summary": "First complete draft of the living document framework",
+      "essayFile": "revisions/2024-02-03-initial.md",
+      "tags": ["initial", "foundation"]
+    }
+  ]
+}
